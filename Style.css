@@ -1,22 +1,22 @@
 
-    *{
+*{
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
-    body{
+body{
         background-color: rgb(255, 255, 255);
     }
-    header{
+header{
         background-color: rgb(233, 235, 236);
         height: 15vh;
     }
-    #header-img{
+#header-img{
         width:20%;
         float: left;
         margin-top: -31px;
     }
-    #header-contenedor1{
+#header-contenedor1{
         color: rgb(0, 0, 0);
         padding:5vh 0px 10px 15px;
         background-color:rgb(233, 235, 236);
@@ -24,36 +24,36 @@
         position: relative;
         float: left;
     }
-    nav{
+nav{
         height: 9vh;
         background-color: rgb(0, 255, 255);
         text-align: center;
         display: block;
         padding-top: 25px;
     }
-    a{
+a{
         text-decoration: none;
         color: black;
         
     }
-    h3{
+h3{
         color: aqua;
         position: relative;
     }
-    #nav-contenedor{
+#nav-contenedor{
         overflow: hidden;
         text-align: center;
         margin-top: 1%;
     }
-    #nav-img{
+#nav-img{
         width: 80%;
         text-align: center;
-    }
-    #nav-enlaces{
-background-color: #00000000;
-    }
-    #Lo{
-        margin-left: 50px;
+}
+#nav-enlaces{
+    background-color: #00000000;
+}
+#Lo{
+    margin-left: 50px;
     }
 #Modalimg{
     width: 100px;
@@ -69,7 +69,7 @@ background-color: #00000000;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
   }
-  #modal-content {
+#modal-content {
     display: block;
     position: relative;
     margin: 5% auto;
@@ -126,15 +126,12 @@ ul{
 #nav-id:hover{
     text-decoration: overline;
 }
-
-
-
 .cta {
     border: none;
     background: none;
   }
   
-  .cta span {
+.cta span {
     padding-bottom: 7px;
     letter-spacing: 4px;
     font-size: 14px;
@@ -142,26 +139,26 @@ ul{
     text-transform: uppercase;
   }
   
-  .cta svg {
+.cta svg {
     transform: translateX(-8px);
     transition: all 0.3s ease;
   }
   
-  .cta:hover svg {
+.cta:hover svg {
     transform: translateX(0);
   }
   
-  .cta:active svg {
+.cta:active svg {
     transform: scale(0.9);
   }
   
-  .hover-underline-animation {
+.hover-underline-animation {
     position: relative;
     color: black;
     padding-bottom: 20px;
   }
   
-  .hover-underline-animation:after {
+.hover-underline-animation:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -173,13 +170,10 @@ ul{
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-  
-  .cta:hover .hover-underline-animation:after {
+.cta:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-
-
 
 
 
